@@ -41,7 +41,6 @@ void set(BMP &bmp){
     string filename;
     cout<<"Input the file name(just name):";
     cin>>filename;
-    filename="img\\"+filename;
     bmp.read(filename);
 }
 void list(BMP &bmp){
