@@ -13,7 +13,7 @@ int main(){
     #endif
 
 	string cmd;
-	BMP bmp("img\\cat-heart.bmp");
+	BMP bmp("cat-heart.bmp");
 	intro();
 
 	while(cout<<">>>",cin>>cmd){
